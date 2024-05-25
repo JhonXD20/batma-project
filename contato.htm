@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Batman</title>
 </head>
 <body>
@@ -12,14 +12,64 @@
         <nav>
         <div class="header_nav">
              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="fotos.html">Fotos</a></li>
-                <li><a href="comentarios.html">Comentários</a></li>
+                <a href="index.html"><li>Home</li></a>
+                <a href=""><li>Contato</li></a>
+                <a href="fotos.html"><li>Fotos</li></a>
+               <a href="comentarios.html"><li>Comentários</li></a>
                 
              </ul>
         </div>
         </nav>
     </header>
+    <main>
+        <div id="banner"class="banner">
+
+        </div>
+         <center><h1>Entre em contato</h1></center>
+        
+         <div class="form-container">
+            <div class="form-content">
+
+                <div class="form-inputs">
+                    <div class="first-iputs">
+                        
+                        <div class="input-container">
+                            <input type="text" name="user-name" id="user-name-input" class="user-input" placeholder="Nome" />
+                        </div>
+
+                        <div class="input-container">
+                            <input type="email" name="user-email" id="user-email-input" class="user-input" placeholder="Email" />
+                        </div>
+
+                    </div>
+
+                    <div class="input-container" id="user-phone-input">
+                        <input type="text" name="user-phone" class="user-input" placeholder="Telefone"/>
+                    </div>
+                    <div class="input-container" id="user-message-input">
+                        <textarea name="user-message" id="user-message" cols="30" rows="10" placeholder="Mensagem" maxlength="350"></textarea>
+                    </div>
+
+                   <center> <button type="submit" class="submit-button">Submit</button></center>
+                </div>
+            </div>
+         </div>
+
+      
+    </main>
+    <footer>
+        <img src="./img/batman-logo-10k-24.jpg" alt="logo" class="footer_logo">
+        <span>Todos os direitos reservados © </span>
+        <span>Desenvolvido: João Pedro</span>
+        <div class="footer_nav">
+            <ul class="footer_list">
+               <a href="index.html"><li>Home</li></a>
+               <a href=""><li>Contato</li></a>
+               <a href="fotos.html"><li>Fotos</li></a>
+              <a href="comentarios.html"><li>Comentários</li></a>
+               
+            </ul>
+       </div>
+    </footer>
 </body>
 </html>
